@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "refile", "~> 0.6"
+  spec.add_dependency "sinatra", ">= 2.0.0", "<= 3.1.0"
   spec.add_dependency "image_processing", "~> 1.1"
   spec.add_dependency "mini_magick", "~> 4.0"
 end
